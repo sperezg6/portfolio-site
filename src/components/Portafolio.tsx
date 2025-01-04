@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
-import { Github, Linkedin, Twitter, Sun, Moon, Camera, Music } from 'lucide-react';
-import { title } from 'process';
+import { Github, Linkedin, Sun, Moon, Camera, Music } from 'lucide-react';
+
 
 const Portfolio = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
